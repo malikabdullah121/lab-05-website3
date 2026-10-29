@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Malik M Abdullah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = { theme: { extend: { fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] } } } }
+    </script>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans antialiased p-4 md:p-8 min-h-screen flex flex-col justify-between">
+    <div class="max-w-7xl mx-auto space-y-6 w-full">
+        <!-- Navigation Bar -->
+        <header class="bg-white rounded-2xl p-4 shadow-sm flex flex-col md:flex-row items-center justify-between gap-4 border border-slate-200">
+            <div class="flex items-center gap-3">
+                <div class="bg-slate-900 text-white font-bold px-3 py-2 rounded-xl text-sm">MA</div>
+                <div>
+                    <h1 class="font-extrabold text-slate-900 leading-tight">MALIK M ABDULLAH</h1>
+                    <p class="text-xs text-blue-600 font-medium">CS STUDENT • QARSHI UNIVERSITY</p>
+                </div>
+            </div>
+            <nav class="flex flex-wrap items-center gap-2 text-xs font-semibold">
+                <a href="index.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">Home</a>
+                <a href="about.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">About</a>
+                <a href="skills.html" class="bg-blue-600 text-white px-4 py-2 rounded-xl transition">Skills</a>
+                <a href="projects.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">Projects</a>
+                <a href="contact.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">Contact</a>
+            </nav>
+            <a href="#" class="bg-slate-900 text-white px-4 py-2 rounded-xl text-xs font-bold hover:bg-slate-800 transition flex items-center gap-2">
+                <i class="fa-solid fa-download"></i> Download CV
+            </a>
+        </header>
+
+        <!-- Skills & Certification Content -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200 space-y-4">
+                <h3 class="font-bold text-sm text-slate-900 flex items-center gap-2"><i class="fa-solid fa-code text-blue-600"></i> SKILLS & COMPETENCIES</h3>
+                <div class="flex flex-wrap gap-1.5 text-xs pt-2">
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-lg font-medium">SEO</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-lg font-medium">On-Page SEO</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-lg font-medium">Off-Page SEO</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-lg font-medium">Keyword Research</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-lg font-medium">Meta tags</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-lg font-medium">Web development</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-lg font-medium">HTML</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-lg font-medium">CSS</span>
+                    <span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-lg font-medium">WordPress</span>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200 space-y-4">
+                <h3 class="font-bold text-sm text-slate-900 flex items-center gap-2"><i class="fa-solid fa-certificate text-blue-600"></i> CERTIFICATION (2026)</h3>
+                <div class="space-y-2 text-xs">
+                    <h4 class="font-bold text-slate-800">Google AI Essentials</h4>
+                    <p class="text-slate-500">From Coursera • Authorized by Google</p>
+                    <p class="text-slate-600">AI fundamentals, generative AI tools, prompt engineering, and ethical AI productivity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-xs text-slate-500 py-4 mt-8 border-t border-slate-200">
+        <p>© 2026 Malik M Abdullah • Sabzazar, K Block, Lahore</p>
+    </footer>
+</body>
+</html>

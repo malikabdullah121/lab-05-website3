@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Malik M Abdullah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = { theme: { extend: { fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] } } } }
+    </script>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans antialiased p-4 md:p-8 min-h-screen flex flex-col justify-between">
+    <div class="max-w-7xl mx-auto space-y-6 w-full">
+        <!-- Navigation Bar -->
+        <header class="bg-white rounded-2xl p-4 shadow-sm flex flex-col md:flex-row items-center justify-between gap-4 border border-slate-200">
+            <div class="flex items-center gap-3">
+                <div class="bg-slate-900 text-white font-bold px-3 py-2 rounded-xl text-sm">MA</div>
+                <div>
+                    <h1 class="font-extrabold text-slate-900 leading-tight">MALIK M ABDULLAH</h1>
+                    <p class="text-xs text-blue-600 font-medium">CS STUDENT • QARSHI UNIVERSITY</p>
+                </div>
+            </div>
+            <nav class="flex flex-wrap items-center gap-2 text-xs font-semibold">
+                <a href="index.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">Home</a>
+                <a href="about.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">About</a>
+                <a href="skills.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">Skills</a>
+                <a href="projects.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">Projects</a>
+                <a href="contact.html" class="bg-blue-600 text-white px-4 py-2 rounded-xl transition">Contact</a>
+            </nav>
+            <a href="#" class="bg-slate-900 text-white px-4 py-2 rounded-xl text-xs font-bold hover:bg-slate-800 transition flex items-center gap-2">
+                <i class="fa-solid fa-download"></i> Download CV
+            </a>
+        </header>
+
+        <!-- Contact Content -->
+        <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200 max-w-xl mx-auto space-y-4">
+            <h3 class="font-bold text-sm text-slate-900 flex items-center gap-2"><i class="fa-solid fa-envelope text-blue-600"></i> DIRECT CONTACT & ACTIONS</h3>
+            <div class="space-y-3 text-xs">
+                <div class="p-3 bg-slate-50 rounded-xl flex justify-between items-center">
+                    <span class="text-slate-500">Phone</span>
+                    <a href="tel:+923297533870" class="font-bold text-blue-600">+92 3297533870</a>
+                </div>
+                <div class="p-3 bg-slate-50 rounded-xl flex justify-between items-center">
+                    <span class="text-slate-500">Email</span>
+                    <a href="mailto:malikmabdullahh44@gmail.com" class="font-bold text-blue-600">malikmabdullahh44@gmail.com</a>
+                </div>
+                <div class="p-3 bg-slate-50 rounded-xl flex justify-between items-center">
+                    <span class="text-slate-500">Address</span>
+                    <span class="font-bold text-slate-700">Sabzazar, K Block, Lahore</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-xs text-slate-500 py-4 mt-8 border-t border-slate-200">
+        <p>© 2026 Malik M Abdullah • Sabzazar, K Block, Lahore</p>
+    </footer>
+</body>
+</html>

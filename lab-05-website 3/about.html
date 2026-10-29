@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Malik M Abdullah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = { theme: { extend: { fontFamily: { sans: ['"Plus Jakarta Sans"', 'sans-serif'] } } } }
+    </script>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans antialiased p-4 md:p-8 min-h-screen flex flex-col justify-between">
+    <div class="max-w-7xl mx-auto space-y-6 w-full">
+        <!-- Navigation Bar -->
+        <header class="bg-white rounded-2xl p-4 shadow-sm flex flex-col md:flex-row items-center justify-between gap-4 border border-slate-200">
+            <div class="flex items-center gap-3">
+                <div class="bg-slate-900 text-white font-bold px-3 py-2 rounded-xl text-sm">MA</div>
+                <div>
+                    <h1 class="font-extrabold text-slate-900 leading-tight">MALIK M ABDULLAH</h1>
+                    <p class="text-xs text-blue-600 font-medium">CS STUDENT • QARSHI UNIVERSITY</p>
+                </div>
+            </div>
+            <nav class="flex flex-wrap items-center gap-2 text-xs font-semibold">
+                <a href="index.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">Home</a>
+                <a href="about.html" class="bg-blue-600 text-white px-4 py-2 rounded-xl transition">About</a>
+                <a href="skills.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">Skills</a>
+                <a href="projects.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">Projects</a>
+                <a href="contact.html" class="bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2 rounded-xl transition">Contact</a>
+            </nav>
+            <a href="#" class="bg-slate-900 text-white px-4 py-2 rounded-xl text-xs font-bold hover:bg-slate-800 transition flex items-center gap-2">
+                <i class="fa-solid fa-download"></i> Download CV
+            </a>
+        </header>
+
+        <!-- About & Education Content -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Experience -->
+            <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200 space-y-4">
+                <h3 class="font-bold text-sm text-slate-900 flex items-center gap-2"><i class="fa-solid fa-briefcase text-blue-600"></i> EXPERIENCE</h3>
+                <div class="space-y-4 text-xs border-l-2 border-blue-600 pl-4">
+                    <div>
+                        <h4 class="font-bold text-sm text-slate-900">SEO Executive</h4>
+                        <p class="text-blue-600 font-medium">Worked in office under senior supervision</p>
+                        <p class="text-slate-600 mt-1">Performed On-Page SEO (Meta tags, keyword optimization) & Off-Page SEO (Backlinks, directory submissions, Keyword Research).</p>
+                    </div>
+                    <div class="pt-2">
+                        <h4 class="font-bold text-sm text-slate-900">Web Development (Basic)</h4>
+                        <p class="text-blue-600 font-medium">HTML, CSS & WordPress</p>
+                        <p class="text-slate-600 mt-1">Developed basic websites and managed updates/maintenance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200 space-y-4">
+                <h3 class="font-bold text-sm text-slate-900 flex items-center gap-2"><i class="fa-solid fa-graduation-cap text-blue-600"></i> EDUCATION</h3>
+                <div class="space-y-3 text-xs">
+                    <div class="p-3 bg-slate-50 rounded-2xl border border-slate-100">
+                        <h4 class="font-bold text-slate-900">Bscs (2024–2028 Present)</h4>
+                        <p class="text-slate-500">Qarshi University Lahore • 5th Semester</p>
+                    </div>
+                    <div class="p-3 bg-slate-50 rounded-2xl border border-slate-100">
+                        <h4 class="font-bold text-slate-900">Intermediate (2022–2024)</h4>
+                        <p class="text-slate-500">Punjab Group of Colleges</p>
+                    </div>
+                    <div class="p-3 bg-slate-50 rounded-2xl border border-slate-100">
+                        <h4 class="font-bold text-slate-900">Matriculation (2020–2022)</h4>
+                        <p class="text-slate-500">Unique School</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-xs text-slate-500 py-4 mt-8 border-t border-slate-200">
+        <p>© 2026 Malik M Abdullah • Sabzazar, K Block, Lahore</p>
+    </footer>
+</body>
+</html>
